@@ -1,0 +1,92 @@
+/* Chess CSS */
+
+.score-table {
+    width: 100%;
+}
+
+.score-table tr th {
+    padding: 15px 10px 15px 0;
+    text-align: left;
+    border-bottom: 1px solid #707070;
+	font-weight:800;
+}
+
+.winner-tr td {
+    font-weight: 800;
+    color: #8340e5;
+}
+
+.winner-td img {
+    margin-left: 10px;
+}
+
+#chess-score-container .pagination .current {
+    background: transparent;
+    border: none;
+    color: #8340e5;
+    height: 0;
+    width: 0;
+}
+
+tr.first-row td {
+    padding-top: 25px;
+}
+
+#chess-score-container .pagination a {
+    padding: 5px;
+}
+
+#chess-score-inner {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    overflow-y: hidden;
+}
+
+.score-table tr td {
+    white-space: nowrap;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.page-number {
+    text-align: right;
+    font-size: 13px;
+    margin-right: 10px;
+}
+
+.pagination-wrapper {
+    padding: 10px 20px 10px 20px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+    margin-top: 30px
+}
+
+.pagination-wrapper .pagination {
+    margin-top: 0px;
+}
+
+.per-page-wrapper {
+    font-size: 13px;
+}
+
+#per-page-filter {
+    height: 30px;
+    font-size: 13px;
+    border: none;
+}
+
+.pagination span.disabled {
+    color: #dbdbdb;
+}
+
+.nav-wrapper a {
+    font-size: 20px;
+}
+
+a.navs.disabled {
+    color: grey;
+}
